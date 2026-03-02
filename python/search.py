@@ -1,16 +1,3 @@
-# Examples
-
-Repository containing example usage of different Teraflop AI APIs.
-
-## Usage
-
-```bash
-export TERAFLOPAI_API_KEY="your_api_key_here"
-```
-
-## Python
-
-```python
 import os
 from teraflopai import TeraflopAI
 
@@ -23,4 +10,3 @@ client = TeraflopAI(api_key=api_key, url=url)
 results = client.search("City of Houma")
 
 print(results["results"][0])
-```
