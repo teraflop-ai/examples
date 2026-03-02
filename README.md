@@ -10,6 +10,7 @@ export TERAFLOPAI_API_KEY="your_api_key_here"
 
 ## Python
 
+Search Engine API
 ```python
 import os
 from teraflopai import TeraflopAI
